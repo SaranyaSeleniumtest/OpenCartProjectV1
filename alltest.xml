@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Opencartsuite">
+<test name="Opencarttest">
+
+<!-- Add browser specification here-->
+<parameter name="browser" value="firefox"/>
+
+
+<classes>
+<!-- Add all test case to execute her-->
+<class name="testcases.TC001_AccountRegistration"/>
+
+</classes>
+</test>
+</suite>
